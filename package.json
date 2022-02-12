@@ -1,0 +1,17 @@
+{
+  "name": "nianticweb-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*",
+    "sites/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.1.2"
+  },
+  "packageManager": "npm@8.1.3"
+}
