@@ -1,0 +1,19 @@
+{
+  "name": "fireoak-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "dependencies": {
+    "firebase-admin": "^10.0.2"
+  }
+}
